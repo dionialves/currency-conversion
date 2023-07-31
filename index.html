@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <title>Conversor de Moeda</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section>
+            <label>Converter de
+                <select id="convertFrom"></select>
+            </label>
+            <label>Converter para
+                <select id="convertTo"></select>
+            </label>
+            <label >Valor <input id="value" type="number" name="value"></label>
+            <button id="buttonConverter">Converter</button>
+
+            <div class="resultConvertion">
+                <img id="imgConvertFrom" src="./img/real.png">
+                <strong id="textCoinFrom" class="textCoin">Real</strong>
+                <strong id="valueCoinFrom" class="textValue">R$ 0,00</strong>
+
+                <img class="downArrow" src="./img/seta.png">
+
+                <img id="imgConvertTo" src="./img/dolar.png">
+                <strong id="textCoinTo" class="textCoin">Dolar</strong>
+                <strong id="valueCoinTo" class="textValue">US$ 0,00</strong>
+
+            </div>
+        </section>
+    </div>
+</body>
+    <script src="./javascript.js"></script>
+</html>
