@@ -144,15 +144,13 @@ function updateResultConvertion(){
 function convertCoin (){
 
     result =  coin[listOfCoins[0]].conversionRate / coin[listOfCoins[convertFrom.selectedIndex]].conversionRate;
-    result = result * coin[listOfCoins[convertTo.selectedIndex]].conversionRate;
+    result = result.toFixed(2) * coin[listOfCoins[convertTo.selectedIndex]].conversionRate;
 
     valueCoinFrom.textContent =  new Intl.NumberFormat(coin[listOfCoins[convertFrom.selectedIndex]].languageCode, {
         style: "currency",
-        currency: coin[listOfCoins[convertFrom.selectedIndex]].currency,
-        maximumFractionDigits:8,
+        currency: coin[listOfCoins[convertFrom.selectedIndex]].currency
       }).format(value.value);
 
-    
     valueCoinTo.textContent = new Intl.NumberFormat(coin[listOfCoins[convertTo.selectedIndex]].languageCode, {
         style: "currency",
         currency: coin[listOfCoins[convertTo.selectedIndex]].currency,
