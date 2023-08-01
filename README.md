@@ -12,3 +12,4 @@ Tive o cuidado de pensar que as informações contidas no APP viriam de um banco
 </p>
 
 <img src="https://github.com/dionialves/currency-conversion/blob/a3610697edbda3d716633b472b5924b5cb2a8323/img/project.png" alt="img-project">
+![Screenshot_39](https://user-images.githubusercontent.com/56659697/210250318-8402e36c-63f4-4a02-84aa-de57b835d054.png)
