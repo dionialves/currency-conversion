@@ -10,3 +10,5 @@ Este aplicativo faz a conversão de moedas, onde apliquei conhecimentos em HTML,
 <p>
 Tive o cuidado de pensar que as informações contidas no APP viriam de um banco de dados, por isso cadastrei as moedas em em object e fiz todas as opções se baseando nesse cadastro. Em uma aplicação real, bastaria popular o objetc e o aplicativo já estaria pronto para trabalhar com esses dados.
 </p>
+
+<img src="https://github.com/dionialves/currency-conversion/blob/main/img/project.png" alt="logo-project">
