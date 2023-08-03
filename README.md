@@ -12,7 +12,7 @@
 <br/>
 <br/>
 <p>
-Para acessar o projeto, <a href="https://dionialves.github.io/currency-conversion/" target="_blank" >CLIQUE AQUI</a>
+Para acessar o projeto, <a target="_blank" href="https://dionialves.github.io/currency-conversion/">CLIQUE AQUI</a>
 </p>
 <p>
 Este aplicativo faz a conversão de moedas, onde apliquei conhecimentos em HTML, CSS e JavaScript. Por mais simples que seja, pude treinar alguns conceitos fundamentais a programação, como função, variaveis, controle de fluxo, object, manipulação do HTML e manipução dos dados a serem exibidos.
