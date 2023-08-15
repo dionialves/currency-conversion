@@ -78,7 +78,7 @@ const convertCoin = async () => {
     code = `${coins[convertFrom.value].currency}${coins[convertTo.value].currency}`
     
     const data = await fetch(
-        `http://economia.awesomeapi.com.br/json/last/${coins[convertFrom.value].currency}-${coins[convertTo.value].currency}`
+        `https://economia.awesomeapi.com.br/json/last/${coins[convertFrom.value].currency}-${coins[convertTo.value].currency}`
         ).then(response => response.json())
 
     valueCoinFrom.textContent =  new Intl.NumberFormat(coins[convertFrom.value].languageCode, {
