@@ -18,7 +18,7 @@ Para acessar o projeto, <a target="_blank" href="https://dionialves.github.io/cu
 Este aplicativo faz a conversão de moedas, onde apliquei conhecimentos em HTML, CSS e JavaScript. Por mais simples que seja, pude treinar alguns conceitos fundamentais a programação, como função, variaveis, controle de fluxo, object, manipulação do HTML e manipução dos dados a serem exibidos.
 </p>
 <p>
-Tive o cuidado de pensar que as informações contidas no APP viriam de um banco de dados, por isso cadastrei as moedas em em object e fiz todas as opções se baseando nesse cadastro. Em uma aplicação real, bastaria popular o objetc e o aplicativo já estaria pronto para trabalhar com esses dados.
+Esse app de converção consome a API disponibilizadas pelo <a href="https://docs.awesomeapi.com.br/api-de-moedas">awesomeapi</a>, onde pesquiso as moedas a serem convertidas no cambio atual, trato as informações obtidas e disponibilizo ao usuário informações reais e atualizadas de 30 em 30 segundos.
 </p>
 
 <img src="https://github.com/dionialves/currency-conversion/blob/main/img/project.png" alt="logo-project">
